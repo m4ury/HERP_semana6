@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewTituloMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Control de Asistencia"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:paddingBottom="16dp" />
+
+    <EditText
+        android:id="@+id/editTextRut"
+        android:layout_width="364dp"
+        android:layout_height="48dp"
+        android:width="400dp"
+        android:autofillHints="rut"
+        android:hint="@string/rut"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextNombre"
+        android:layout_width="364dp"
+        android:autofillHints="name"
+        android:inputType="textPersonName"
+        android:layout_height="48dp"
+        android:hint="@string/nombre" />
+
+    <EditText
+        android:id="@+id/editTextApellido"
+        android:layout_width="364dp"
+        android:autofillHints="apellido"
+        android:inputType="textPersonName"
+        android:layout_height="48dp"
+        android:hint="@string/apellido" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupTipoMarca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioEntrada"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/entrada" />
+
+        <RadioButton
+            android:id="@+id/radioSalida"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/salida" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonRegistrar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/registrar" />
+
+    <Button
+        android:id="@+id/buttonVerRegistros"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/ver_registros" />
+</LinearLayout>

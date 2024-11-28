@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Mauricio_Morales_20241127_semana6</string>
+    <string name="salida">Salida</string>
+    <string name="entrada">Entrada</string>
+    <string name="registrar">Registrar</string>">
+    <string name="ver_registros">Ver Registros</string>
+    <string name="rut">Rut</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="listado_asitencias">Listado de Asistencias</string>
+    <string name="volver">Volver</string>
+</resources>
